@@ -1,3 +1,100 @@
 body {
     font-family: "Poppins", sans-serif;
+    color: #171717;
+    font-weight: 700;
 }
+
+.header {
+    border-bottom: 2px solid #CCCCCC;
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    width: 55px;
+    height: 55px;
+    border-radius: 10px;
+    margin-left: 5%;
+}
+
+.header__titulo {
+    font-size: 24px;
+    margin-left: 1%;
+}
+
+.novedades {
+    border-bottom: 2px solid #CCCCCC;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.novedades__titulo {
+    font-size: 28px;
+}
+
+.novedades__post {
+    width: 55%;
+}
+
+.novedadesPost__img {
+    width: 90%;
+    height: 314px;
+    border-radius: 20px;
+}
+
+.novedadesPost__fecha{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.novedadesPost__titulo {
+    font-size: 24px;
+}
+
+.post__autor {
+    display: flex;
+}
+
+.post__autor--logoGrande {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.novedades__subPost{
+    display: flex;
+    flex-direction: column;  
+}
+
+.subpost {
+    width: 40%;
+    display: flex;
+}
+
+.subPost__fecha {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.subPost__titulo{
+    font-size: 20px;
+}
+
+.subPost__img {
+    width: 20%;
+    height: 145px;
+    border-radius: 20px;
+}
+
+.post__autor--logoPeque {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.post__autor--textoPeque {
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 1%;
+}
+
